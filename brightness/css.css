@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: #fff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brightness-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #00f;
+    border-radius: 8px;
+}
+.brightness-box svg{
+    height: 20px;
+    width: 20px;
+}
+#range{
+    margin-left: 10px;
+    width: 90%;
+    height: 3px;
+    outline: none;
+}
+#range::-webkit-slider-thumb{
+    cursor: pointer;
+}
+#range-value{
+    color: #666;
+    padding-left: 10px;
+    font-size: 12px;
+    font-weight: 550;
+}
